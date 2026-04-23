@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const itemRoutes = require("./routes/itemRoutes");
+const itemRoutes = require("./routes/temp");
 app.use("/api/items", itemRoutes);
 
 mongoose
