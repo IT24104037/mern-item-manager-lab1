@@ -11,7 +11,7 @@ function App() {
   });
   const [editingId, setEditingId] = useState(null);
 
-  const API_URL = "http://localhost:5000/api/items";
+  const API_URL = "https://mern-item-manager-backend.vercel.app/api/items";
 
   const fetchItems = async () => {
     try {
