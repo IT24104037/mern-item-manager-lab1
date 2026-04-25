@@ -11,7 +11,7 @@ function App() {
   });
   const [editingId, setEditingId] = useState(null);
 
-  const API_URL = "http://localhost:5000/api/items";
+  const API_URL = "https://innovative-alignment-production-e6f9.up.railway.app/api/items";
 
   const fetchItems = async () => {
     try {
